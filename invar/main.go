@@ -20,6 +20,6 @@ func cmplx2()  {
 func traingle()  {
 	var i, j int = 3, 4
 	var k int
-	k = int(math.Sqrt(float64(i*  + j*j)))
+	k = int(math.Sqrt(float64(i*i  + j*j)))
 	fmt.Println("k = ", k)
 }
